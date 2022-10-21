@@ -4,7 +4,7 @@
 
 ## React
 
-* [Webpack 설정하기](react/webpack.md)
+* [Webpack](react/webpack.md)
 * [프록시 서버 만들기](react/undefined.md)
 
 ## Spring
