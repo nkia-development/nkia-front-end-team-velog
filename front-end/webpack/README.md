@@ -19,7 +19,7 @@ description: 웹팩이란?
 
 
 
-<figure><img src="../.gitbook/assets/webpacklogo.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/webpacklogo.svg" alt=""><figcaption></figcaption></figure>
 
 
 
