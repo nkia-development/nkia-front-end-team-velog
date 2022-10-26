@@ -41,3 +41,9 @@ description: 웹팩 주요 개념
    JS파일에서 스타일시트를 분리해서 CSS 파일을 따로 만들어준다. \
    크기가 큰 하나의 파일을 받는 것보다 작은 여러 개의 파일을 다운로드 하는 것이 성능상 유리하기 때문에, \
    배포 시에는 분리하는 것이 좋다.
+
+
+
+> Written by
+
+{% embed url="https://github.com/jukangpark" %}
