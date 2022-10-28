@@ -320,7 +320,7 @@ string.length // 4
 console.log(Object.getPrototypeOf(string));
 ```
 
-<figure><img src="../../.gitbook/assets/스크린샷 2022-10-27 오후 8.25.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2022-10-27 오후 8.25.06.png" alt=""><figcaption></figcaption></figure>
 
 > 참조 \
 > [https://dev.to/capscode/what-is-array-like-object-in-javascript-3f5m](https://dev.to/capscode/what-is-array-like-object-in-javascript-3f5m)\
