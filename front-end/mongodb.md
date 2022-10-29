@@ -21,3 +21,11 @@ NoSQL 데이터베이스의 예로는 도서관 카드 카탈로그에서 MongoD
 이것이 MongoDB 가 NoSQL 문서 데이터베이스로 분류되는 이유입니다.
 
 결론적으로 MongoDB 데이터베이스는 NoSQL 문서 데이터베이스 입니다.
+
+
+
+
+
+> Written by
+
+{% embed url="https://github.com/jukangpark" %}
