@@ -62,9 +62,3 @@ type="module"이 필요 없어진다.\
    그렇지 않은 함수는 최종 번들링 결과물에 포함하지 않는다.\
    이 과정에서 불필요한 코드가 제거되기 때문에 빌드 결과물의 크기가 작아진다.\
    이런 최적화 과정을  '가지치기(tree-shaking)'라고 부른다.
-
-
-
-> Written by
-
-{% embed url="https://github.com/jukangpark" %}
