@@ -16,7 +16,8 @@
 * [Recoil](front-end/recoil.md)
 * [프록시 서버 만들기](front-end/undefined.md)
 * [Express.js](front-end/express.js.md)
-* [MongoDB](front-end/mongodb.md)
+* [MongoDB](front-end/mongodb/README.md)
+  * [몽고디비는 데이터를 어떤식으로 저장하는가?](front-end/mongodb/undefined.md)
 
 ## Spring
 

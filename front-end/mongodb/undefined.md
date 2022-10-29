@@ -1,8 +1,4 @@
----
-description: 몽고디비란?
----
-
-# MongoDB
+# 몽고디비는 데이터를 어떤식으로 저장하는가?
 
 ### How does MongoDB store data?
 
@@ -37,7 +33,7 @@ JavaScript Standard Object Notation 을 나타내는 JSON 으로 나타냅니다
 
 ### JSON vs BSON
 
-<figure><img src="../.gitbook/assets/스크린샷 2022-10-28 오후 4.47.48 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2022-10-28 오후 4.47.48 (1).png" alt=""><figcaption></figcaption></figure>
 
 JSON 은 텍스트 기반 형식이며, 텍스트 구문 분석이 매우 느립니다.\
 그리고 데이터베이스 문제인 공간 효율성과는 거리가 멀습니다.\
@@ -45,7 +41,7 @@ JSON 은 제한된 수의 기본 데이터 유형만 지원합니다.\
 그래서 MongoDB 는 이러한 단점을 해결하기로 결정했습니다.\
 데이터가 메모리에 저장되는 방식을 보면 다음과 같은 내용을 볼 수 있습니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2022-10-28 오후 4.51.02.png" alt=""><figcaption><p>이런 형식을 BSON 이라고 하며 Binary JSON 이라고 부릅니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2022-10-28 오후 4.51.02.png" alt=""><figcaption><p>이런 형식을 BSON 이라고 하며 Binary JSON 이라고 부릅니다.</p></figcaption></figure>
 
 BSON 은 속도, 공간 및 유연성에 최적화된 \
 JSON 형식으로 데이터를 저장하는 이진 표현인 간격을 매우기 위해 발명되었습니다. \
