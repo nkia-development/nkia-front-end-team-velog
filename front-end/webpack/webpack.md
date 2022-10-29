@@ -235,10 +235,4 @@ module.exports = {
 
 ```
 
-
-
-
-
-> Written by
-
-{% embed url="https://github.com/jukangpark" %}
+written by [Jkng\_96](https://app.gitbook.com/u/LsUgwzw6eIN96tulpoOPoAFwwhm1 "mention")
