@@ -24,7 +24,7 @@
 * [Webpack 설정하기](spring/webpack.md)
 * [프록시 서버 만들기](spring/undefined.md)
 
-## Group 1
+## WEB-DEV
 
-* [WEB](group-1/web/README.md)
-  * [TEST](group-1/web/test.md)
+* [WEB](web-dev/web/README.md)
+  * [TEST](web-dev/web/test.md)
