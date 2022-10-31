@@ -26,5 +26,5 @@
 
 ## WEB-DEV
 
-* [WEB](web-dev/web/README.md)
-  * [TEST](web-dev/web/test.md)
+* [WEB](group-1/web/README.md)
+  * [HTML, HTTP API, CSR, SSR](web-dev/web/html-http-api-csr-ssr.md)
