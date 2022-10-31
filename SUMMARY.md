@@ -26,4 +26,5 @@
 
 ## Group 1
 
-* [WEB](group-1/web.md)
+* [WEB](group-1/web/README.md)
+  * [TEST](group-1/web/test.md)
