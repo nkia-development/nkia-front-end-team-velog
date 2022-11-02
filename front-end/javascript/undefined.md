@@ -18,7 +18,7 @@ es6에서 부터 달라진 순회\
 소비자가 효율적으로 다양한 데이터 소스를 사용할 수 있도록 \
 데이터 소비자와 데이터 소스를 연결하는 인터페이스의 역할을 한다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2022-10-27 오후 3.35.53 (1).png" alt=""><figcaption><p>이터러블은 데이터 소비자와 데이터 소스를 연결하는 인터페이</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2022-10-27 오후 3.35.53.png" alt=""><figcaption><p>이터러블은 데이터 소비자와 데이터 소스를 연결하는 인터페이</p></figcaption></figure>
 
 ES6 에서 제공하는 '빌트인 이터러블'
 
