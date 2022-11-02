@@ -346,3 +346,16 @@ The "start station location" has a sub-document that contains the coordinates ar
 
 
 
+\<script src="https://utteranc.es/client.js"
+
+&#x20;       repo="nkia-development/nkia-front-end-team-velog"
+
+&#x20;       issue-term="pathname"
+
+&#x20;       theme="github-dark"
+
+&#x20;       crossorigin="anonymous"
+
+&#x20;       async>
+
+\</script>
