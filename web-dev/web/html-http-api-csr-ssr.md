@@ -1,3 +1,0 @@
-# HTML, HTTP API, CSR, SSR
-
-TEST

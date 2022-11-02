@@ -2,7 +2,7 @@
 description: http-proxy-middleware 를 이용하여 프록시 서버를 만들자
 ---
 
-# 프록시 서버 만들기
+# 📗 Proxy-server
 
 ### CORS 교차 출처 리소스 공유
 
