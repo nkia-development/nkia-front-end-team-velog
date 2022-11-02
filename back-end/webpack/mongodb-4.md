@@ -1,4 +1,4 @@
-# M320 : MongoDB Data Modeling
+# ☝ M320 : MongoDB Data Modeling
 
 
 
