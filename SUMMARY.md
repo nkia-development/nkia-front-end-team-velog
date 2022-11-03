@@ -4,16 +4,16 @@
 
 ## Front-End
 
-* [JavaScript](front-end/javascript/README.md)
+* [📘 JavaScript](front-end/javascript/README.md)
   * [이터러블 / 이터레이터 프로토콜](front-end/javascript/undefined.md)
   * [Closure](front-end/javascript/closure.md)
-* [Webpack](front-end/webpack/README.md)
+* [📘 Webpack](front-end/webpack/README.md)
   * [Webpack Concepts](front-end/webpack/webpack-concepts.md)
   * [Webpack 설정하기](front-end/webpack/webpack.md)
   * [코드 스플리팅](front-end/webpack/undefined.md)
-* [TypeScript](front-end/typescript.md)
-* [Redux](front-end/redux.md)
-* [Recoil](front-end/recoil.md)
+* [📘 TypeScript](front-end/typescript.md)
+* [📘 Redux](front-end/redux.md)
+* [📘 Recoil](front-end/recoil.md)
 
 ## BACK-END
 
