@@ -8,7 +8,7 @@ description: >-
 
 * Atlas cluster dummy data 중 sample\_mflix 데이터베이스 사용
 * Mac 에서 5000 포트 사용 중이면 다른 포트로 변경 필요 application.properties 에서 server.port 변경!
-* 티켓 발급은 project 실행 후 root path로 접속시 mflix 화면이 뜨고 status 화면에서 가
+* 티켓 발급은 project 실행 후 root path로 접속시 mflix 화면이 뜨고 status 화면에서 확인 가
 
 <details>
 
