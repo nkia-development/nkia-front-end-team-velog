@@ -2,7 +2,11 @@
 
 ## Chapter 1: What is MongoDB
 
-### Lab2 : Connect to your Atlas Cluster
+### Lab 1 : Connect to your Atlas Cluster
+
+<details>
+
+<summary>Explanation</summary>
 
 1. atlas에 database 계정 생성 (<mark style="color:red;">**`username: m001-student`**</mark>`,` <mark style="color:red;">**`password: m001-mongodb-basic`**</mark>)
 2. mongo shell로 mongo 클러스터 접속
@@ -10,6 +14,8 @@
 ```shell
 mongo "mongodb+srv://sandbox.vlwl8hn.mongodb.net/admin" --username m001-student --password m001-mongodb-basic
 ```
+
+</details>
 
 
 
@@ -346,3 +352,110 @@ The "start station location" has a sub-document that contains the coordinates ar
 
 
 
+### Lab 9: Querying Arrays and Sub-Documents
+
+<details>
+
+<summary>Problem</summary>
+
+To complete this exercise connect to your Atlas cluster using the in-browser IDE space at the end of this chapter.
+
+How many inspections from the sample\_training.inspections collection were conducted in the city of NEW YORK?
+
+</details>
+
+<details>
+
+<summary>Explanation</summary>
+
+<mark style="color:green;">**18279**</mark>
+
+To get this value use the following query:
+
+COPY
+
+```javascript
+db.inspections.find({ "address.city": "NEW YORK" }).count()
+```
+
+Here we need to use dot-notation to get to the "city" field and search for all documents where this field is equal to "NEW YORK".
+
+</details>
+
+
+
+## Chapter 5: Indexing and Aggregation Pipeline
+
+### Lab 1: Aggregation Framework
+
+<details>
+
+<summary>Problem</summary>
+
+To complete this exercise connect to your Atlas cluster using the in-browser IDE space at the end of this chapter.
+
+What room types are present in the sample\_airbnb.listingsAndReviews collection?
+
+**Attempts Remaining:**Correct Answer
+
+Check all answers that apply:
+
+* Shared room
+
+<!---->
+
+* Entire home/apt
+
+<!---->
+
+* House
+
+<!---->
+
+* Private room
+
+<!---->
+
+* Apartment
+
+<!---->
+
+* Kitchen
+
+<!---->
+
+* Living Room
+
+</details>
+
+<details>
+
+<summary>Explanation</summary>
+
+
+
+* <mark style="color:green;">**Shared room**</mark>
+* <mark style="color:green;">**Entire home/apt**</mark>
+*   <mark style="color:green;">**Private room**</mark>
+
+    > These are <mark style="color:green;">**correct**</mark><mark style="color:green;">.</mark>
+    >
+    > To get this result you need to run the following query.
+
+```javascript
+db.listingsAndReviews.aggregate([ { "$group": { "_id": "$room_type" } }])
+```
+
+* **Living Room**
+* **Kitchen**
+* **House**
+*   **Apartment**
+
+    > These are **incorrect**.
+    >
+    > Neither of these options is present in the "room\_type" field in the listingsAndReviews collection.
+
+[\
+](https://university.mongodb.com/mercury/M001/2022\_October\_11/chapter/Chapter\_5\_Indexing\_and\_Aggregation\_Pipeline/lesson/5f3744af04e9ffb9741db2b5/problem)
+
+</details>
